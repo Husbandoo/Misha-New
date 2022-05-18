@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 ────「 [𝗠𝗶𝘀𝗵𝗮 𝗡𝗲𝗰𝗿𝗼𝗻](https://te.legra.ph/file/c9f73319920ef3bd0a5e4.mp4) 」────
-ᴋᴏɴ'ɴɪᴄʜɪᴡᴀ {} - sᴀɴ!  
+Hi There!  
 ɪ'ᴍ [𝗠𝗶𝘀𝗵𝗮](https://maou-gakuin.fandom.com/wiki/Misha_Necron) ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 »  Advance In Modules.
