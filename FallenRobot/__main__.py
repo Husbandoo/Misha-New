@@ -119,7 +119,7 @@ buttons = [
 FallenRobot_IMG = "https://te.legra.ph/file/c9f73319920ef3bd0a5e4.mp4"
 
 HELP_STRINGS = """
-Hey there! Myself [ᴍɪꜱʜᴀ](https://telegra.ph/file/b5d470fa1c1fb55632d15.mp4).
+Hey there! Myself [Misha](https://telegra.ph/file/b5d470fa1c1fb55632d15.mp4).
 Have a look at the following for an idea of some of the things I can help you with.
 *Main* commands available:
  ➛ /help: PM's you this message.
