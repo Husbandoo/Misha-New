@@ -59,7 +59,7 @@ def no_longer_afk(update: Update, context: CallbackContext):
         try:
             options = [
                 "{} My Love, Is Here!",
-                "{} Hope You Brought Us Pizza!",
+                "{} Chalaja Bsdk!",
                 "{} Don't Trash The Chat!",
                 "{} Is Here To Steal Your Heart, Watch Out!",
                 "{} Don't Leave Me Alone Here Again!",
