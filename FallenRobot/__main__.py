@@ -100,8 +100,8 @@ buttons = [
             url="t.me/NexusXSupport",
         ),
         InlineKeyboardButton(
-            text="ʜᴜꜱʙᴀɴᴅᴏ",
-            url="https://t.me/Husbandoo",
+            text="ᴢᴏʀᴏ",
+            url="https://t.me/AceLadi",
         ),
     ],
     [
@@ -129,7 +129,7 @@ Have a look at the following for an idea of some of the things I can help you wi
    ❂ in PM: will send you your settings for all supported modules.
    ❂ in a group: will redirect you to pm, with all that chat's settings.\n• *ʀᴇᴀᴄʜ ᴏᴜᴛ ғᴏʀ sᴜᴘᴘᴏʀᴛ :* [sᴜᴘᴘᴏʀᴛ](https://t.me/NexusXSupport)
 """
-DONATE_STRING = """[ʜᴜꜱʙᴀɴᴅᴏ](https://t.me/Husbandoo)"""
+DONATE_STRING = """[ᴢᴏʀᴏ](https://t.me/aceladi)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
