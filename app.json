@@ -27,12 +27,12 @@
       "API_ID": {
          "description": "Get this value from my.telegram.org/apps.",
          "required": true,
-         "value": "7761098"
+         "value": ""
       },
       "API_HASH": {
          "description": "Get this value from my.telegram.org/apps.",
          "required": true,
-         "value": "6b19682d1aeeda50a4aa8b6eb61f3a4e"
+         "value": ""
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, Leave this field empty if you don't have one.",
@@ -94,7 +94,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Fallen Support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": ""
+         "value": "5358835742 5382969198 1938491135 1802324609 5132611794"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
