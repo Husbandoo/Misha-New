@@ -82,7 +82,10 @@ def gban(update: Update, context: CallbackContext):
     log_message = ""
 
     user_id, reason = extract_user_and_text(message, args)
-
+    if reason:
+        reason = reason
+    else:
+        reason = "No Reason Provided"
     if not user_id:
         message.reply_text(
             "You don't seem to be referring to a user or the ID specified is incorrect.."
