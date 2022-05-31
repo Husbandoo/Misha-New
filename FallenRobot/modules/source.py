@@ -15,7 +15,7 @@ async def repo(client, message):
         photo=ANON,
         caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [𝗠𝗶𝘀𝗵𝗮 𝗡𝗲𝗰𝗿𝗼𝗻](t.me/MishaXRobot)**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [𝗛𝘂𝘀𝗯𝗮𝗻𝗱𝗼](tg://user?id=1938491135)
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [Zoro](tg://user?id=5148561602)
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
@@ -27,7 +27,7 @@ async def repo(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "• ᴏᴡɴᴇʀ •", url="tg://user?id=1938491135"), 
+                        "• ᴏᴡɴᴇʀ •", url="tg://user?id=5148561602"), 
                     InlineKeyboardButton(
                         "• sᴏᴜʀᴄᴇ •", url="https://t.me/NexusXSupport")
                 ]
