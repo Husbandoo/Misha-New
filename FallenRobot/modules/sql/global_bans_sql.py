@@ -1,8 +1,8 @@
 import threading
 
 from FallenRobot.modules.sql import BASE, SESSION
-from sqlalchemy import Boolean, Column, BigInteger, String, UnicodeText
-
+from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
+from sqlalchemy.sql.sqltypes import BigInteger
 
 class GloballyBannedUsers(BASE):
     __tablename__ = "gbans"
