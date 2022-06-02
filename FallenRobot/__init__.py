@@ -5,6 +5,7 @@ import time
 import spamwatch
 
 import telegram.ext as tg
+from redis import StrictRedis
 from aiohttp import ClientSession
 from pyrogram import Client, errors
 from telethon import TelegramClient
@@ -72,6 +73,7 @@ if ENV:
 
     DB_URI = os.environ.get("DATABASE_URL")
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
+    REDIS_URL = os.environ.get('REDIS_URL')
     DONATION_LINK = os.environ.get("DONATION_LINK")
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -140,6 +142,7 @@ else:
     URL = Config.URL
     PORT = Config.PORT
     CERT_PATH = Config.CERT_PATH
+    REDIS_URL = Config.REDIS_URL
     API_ID = Config.API_ID
     API_HASH = Config.API_HASH
     DB_URI = Config.SQLALCHEMY_DATABASE_URI
@@ -177,6 +180,25 @@ else:
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(5382969198)
 DEV_USERS.add(1938491135)
+
+REDIS = StrictRedis.from_url(REDIS_URL,decode_responses=True)
+
+try:
+
+    REDIS.ping()
+
+    LOGGER.info("Your redis server is now alive!")
+
+except BaseException:
+
+    raise Exception("Your redis server is not alive, please check again.")
+
+finally:
+
+   REDIS.ping()
+
+   LOGGER.info("Your redis server is now alive!")
+
 
 if not SPAMWATCH_API:
     sw = None
